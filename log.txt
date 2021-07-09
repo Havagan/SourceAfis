@@ -1,0 +1,17 @@
+2021-07-09 19:45:56.158 -04:00 [INF] Loaded 2 extensions
+2021-07-09 19:45:56.292 -04:00 [INF] MSBuild registered from C:\Program Files\dotnet\sdk\5.0.301\
+2021-07-09 19:46:00.306 -04:00 [INF] Initializing upgrade step Select an entrypoint
+2021-07-09 19:46:03.293 -04:00 [INF] Applying upgrade step Select an entrypoint
+2021-07-09 19:46:06.892 -04:00 [INF] Upgrade step Select an entrypoint applied successfully
+2021-07-09 19:46:08.322 -04:00 [INF] Initializing upgrade step Finalize upgrade
+2021-07-09 19:46:15.454 -04:00 [INF] Applying upgrade step Finalize upgrade
+2021-07-09 19:46:15.455 -04:00 [INF] Upgrade step Finalize upgrade applied successfully
+2021-07-09 19:46:17.752 -04:00 [INF] Upgrade has completed. Please review any changes.
+2021-07-09 19:46:17.757 -04:00 [INF] No state to save
+2021-07-09 19:46:22.874 -04:00 [INF] Loaded 2 extensions
+2021-07-09 19:46:23.008 -04:00 [INF] MSBuild registered from C:\Program Files\dotnet\sdk\5.0.301\
+2021-07-09 19:46:24.321 -04:00 [INF] Initializing upgrade step Select an entrypoint
+2021-07-09 19:46:27.138 -04:00 [INF] Applying upgrade step Select an entrypoint
+2021-07-09 19:46:31.993 -04:00 [INF] Upgrade step Select an entrypoint applied successfully
+2021-07-09 19:46:34.384 -04:00 [INF] Initializing upgrade step Finalize upgrade
+2021-07-09 19:46:38.817 -04:00 [INF] Saving upgrade progress file at C:\Development\SourceAfis\.upgrade-assistant

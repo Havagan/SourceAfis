@@ -87,18 +87,18 @@ namespace SourceAFIS.Tests
 
         class TimeBenchmark
         {
-            int Iterations;
-            Stopwatch Stopwatch = new Stopwatch();
+            int _iterations;
+            readonly Stopwatch _stopwatch = new Stopwatch();
 
-            public TimeSpan UnitTime { get { return new TimeSpan(Stopwatch.Elapsed.Ticks / Iterations); } }
-            public double Throughput { get { return Iterations / Stopwatch.Elapsed.TotalSeconds; } }
+            public TimeSpan UnitTime { get { return new TimeSpan(_stopwatch.Elapsed.Ticks / _iterations); } }
+            public double Throughput { get { return _iterations / _stopwatch.Elapsed.TotalSeconds; } }
 
             public T Measure<T>(Func<T> func)
             {
-                Stopwatch.Start();
+                _stopwatch.Start();
                 var result = func();
-                Stopwatch.Stop();
-                ++Iterations;
+                _stopwatch.Stop();
+                ++_iterations;
                 return result;
             }
 
@@ -107,10 +107,10 @@ namespace SourceAFIS.Tests
                 var list = items.ToList();
                 foreach (var item in list)
                 {
-                    Stopwatch.Start();
+                    _stopwatch.Start();
                     var result = func(item);
-                    Stopwatch.Stop();
-                    ++Iterations;
+                    _stopwatch.Stop();
+                    ++_iterations;
                     yield return result;
                 }
             }
